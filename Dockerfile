@@ -11,6 +11,6 @@ WORKDIR /
 COPY $BAK_FILE ./wideworldimporters.bak
 COPY ./install.sql .
 COPY ./install.sh .
-COPY ./startup.sh .
+COPY ./entrypoint.sh .
 
 CMD /bin/bash ./entrypoint.sh
