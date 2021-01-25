@@ -13,4 +13,4 @@ COPY ./install.sql .
 COPY ./install.sh .
 COPY ./startup.sh .
 
-CMD /bin/bash ./startup.sh
+CMD /bin/bash ./entrypoint.sh
